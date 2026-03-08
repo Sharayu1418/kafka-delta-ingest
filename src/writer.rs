@@ -30,7 +30,7 @@ use deltalake_core::{
     protocol::{ColumnCountStat, ColumnValueStat, Stats},
     DeltaTable, DeltaTableError, ObjectStoreError,
 };
-use log::{error, info, warn};
+use log::*;
 use serde_json::{Number, Value};
 use std::collections::HashMap;
 use std::convert::TryFrom;
